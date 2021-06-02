@@ -1,0 +1,197 @@
+.login-header {
+	top: 0;
+	left: 0;
+	background: #fff;
+	width: 100%;
+	height: 85px;
+	position: fixed;
+	z-index: 2;
+	box-shadow: 0 2px 2px rgba(0,0,0,.2)
+}
+
+.login-header .logo {
+	width: 180px;
+	height: 50px;
+	display: block;
+	background: url(../images/logo-l.jpg) no-repeat;
+	float: left;
+	margin-left: 10px
+}
+
+.login-header .nav {
+	position: absolute;
+	left: 45%;
+	margin-left: -280px;
+	padding-top:15px;
+	overflow: hidden
+}
+
+.superContainer,.superContainer .section {
+	position: relative
+}
+
+.login-header .nav li {
+	float: left;
+	margin: 0 30px
+}
+
+.login-header .nav li a {
+	line-height: 50px;
+	padding: 0 20px;
+	color: #666;
+	font-size: 20px;
+	background: none;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif"
+}
+
+.login-header .nav li a:hover,.login-header .nav li.cur a {
+	color: #cd222b;
+	outline:none;
+	background: none
+}
+
+.login-header .nav li a.back {
+	display: none
+}
+
+.login-header .download {
+	float: right;
+	margin-right: 10px;
+	width: 90px;
+	padding-top:15px;
+	text-align: center
+}
+
+.login-header .download .browser-box li {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+	line-height: 25px
+}
+
+.login-header .download .browser-box li s {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+	margin-right: 5px;
+	background: url(../images/ico-login.png) no-repeat;
+	width: 25px;
+	height: 25px;
+	vertical-align: middle
+}
+
+.login-header .download .browser-box li.browser-chrome {
+	margin-right: 30px
+}
+
+.login-header .download .browser-box li.browser-chrome s {
+	background-position: -129px 0
+}
+
+.login-header .download .browser-box li.browser-ff s {
+	background-position: -170px 0
+}
+.login-footer {
+	height: 65px;
+	padding: 10px 0;
+	width: 100%;
+	background: #fff;
+	bottom: 0;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+	left: 0
+}
+.login-btn{
+	outline: none;
+}
+.login-btn:focus{
+	color: #fff;
+    outline: 0
+}
+.login-btn:hover{
+	color: #fff;
+	outline: none;
+	background: #da5c6c
+}
+
+.banner-propagate{
+	margin-top:85px;
+	position:relative;
+}
+
+.banner-propagate .banner-propagate-img{
+	width:100%;
+}
+
+.banner-propagate .des-tit{
+	position: absolute;
+    top: 80px;
+    width: 100%
+}
+
+.banner-txt-bg{
+	position: absolute;
+	background: url(../images/banner-txt-bg.png) no-repeat;
+	top: 200px;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 16px;
+	margin: auto;
+	text-align: center;
+	width: 100%;
+	background-position-x: center;
+}
+
+.wd1200{
+	width:1200px;
+	margin:auto
+}
+
+.tit-pro{
+	font-size: 20px;
+	color: #000;
+	position:absolute;
+}
+
+.tit-pro>i{position: absolute;width: 270px;height: 1px;background: #ddd;left: -100px;top: 103px;}
+    
+.tit-pro>em{
+    position: absolute;
+    width: 5em;
+    background: #fff;
+    left: 50%;
+    margin-left: -1em;
+    top: 90px;
+    }
+    
+ .product-img-left{
+    width:45%;
+    padding-top:60px;
+    float:left;
+ }
+ 
+ .product-txt-right{
+    width:55%;
+    padding-top:60px;
+    float:right;
+    color:#666;
+    font-size:15px;
+    line-height:30px;
+ }
+ 
+ .use-img-box{
+ }
+ 
+ .mt60{
+ margin-top:60px;
+ }
+ 
+  .mt110{
+ margin-top:110px;
+ }
+ 
+ .bg-e9e9e9{
+   background:#e9e9e9 !important;
+ }
